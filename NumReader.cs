@@ -8,11 +8,12 @@ namespace Unit_10._5
     {
         public delegate void NumEnteredDelegate(int num);
         public event NumEnteredDelegate NumEnteredEvent;
-        public void KeyRead()
+        public int KeyRead()
         {
             Console.WriteLine("\n Please input integer value");
             int num = Convert.ToInt32(Console.ReadLine());
             NumEntered(num);
+            return num;
         }
         protected virtual void NumEntered(int num)
         {

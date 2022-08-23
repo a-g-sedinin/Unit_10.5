@@ -4,11 +4,9 @@ using System.Text;
 
 namespace Unit_10._5
 {
-    public class myCalc : ISum
+    internal interface ISum
     {
         public int Sum(int a, int b) => a + b;
-
-
 
     }
 }

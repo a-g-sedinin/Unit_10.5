@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq.Expressions;
+using System.Xml.Linq;
 
 namespace Unit_10._5
 {
@@ -7,15 +9,14 @@ namespace Unit_10._5
         static void Main(string[] args)
         {
             myCalc myCalc = new myCalc();
-            
-            
             NumReader numReader = new NumReader();
-            
-            
+
 
             
-            
-            Console.WriteLine(myCalc.Sum(1, 5));
+
+
+
+
         }
     }
 }
