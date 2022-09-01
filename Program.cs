@@ -11,8 +11,8 @@ namespace Unit_10._5
             myCalc myCalc = new myCalc();
             NumReader numReader = new NumReader();
 
-            int a;
-            int b;
+            int a=0;
+            int b=0;
             int i = 1;
             while (true && i>0)
             {
@@ -43,9 +43,8 @@ namespace Unit_10._5
                     Console.WriteLine(ex.Message);
                 }
             }
-
-
-
+            Console.WriteLine($"a = {a} b =  {b}");
+            Console.WriteLine(myCalc.Sum(a,b).ToString());
         }
     }
 }
