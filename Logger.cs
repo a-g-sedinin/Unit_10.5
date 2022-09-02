@@ -9,8 +9,7 @@ namespace Unit_10._5
         public void Error(Exception ex)
         {
             Console.WriteLine("\n ");
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(ex.Message);
             Console.ResetColor();
         }
@@ -20,8 +19,7 @@ namespace Unit_10._5
         public void Event(string s)
         {
             Console.WriteLine("\n ");
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(s);
             Console.ResetColor();
 
